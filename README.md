@@ -1,44 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  🚀️ Front-end Web 💈️💇‍♂️️ GoBarber 💅️✂️
+</h1>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# Indice
 
-### `yarn start`
+- :rocket: [Sobre o Projeto](#rocket-sobre-o-projeto)
+- 👨‍💻️ [Tecnogias utilizadas](#%EF%B8%8F-tecnogias-utilizadas)
+- 📦️ [Como utilizar o projeto](#%EF%B8%8F-como-utilizar-o-projeto)
+- 🤔️ [Como contribuir](#%EF%B8%8F-como-contribuir)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :rocket: Sobre o Projeto
 
-### `yarn test`
+A proposta do **Bootcamp GoStack** da [Rocketseat](https://rocketseat.com.br/) é desenvolver uma aplicação completa para barbearias e salões de beleza chamada GoBarber, onde os prestadores de serviço possam informar seus dias e horários disponíveis para o trabalho, enquanto os clientes possam optar pelo profissional que melhor se enquadre em sua escolha de dia e horário.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O **GoBarber Web** é a construção da versão web da aplicação 💈️💇‍♂️️ **GoBarber** 💅️✂️, que será utilizada pelos prestadores de serviço para visualizar os agendamentos e selecionar o horário de atendimento.
 
-### `yarn build`
+Este projeto de Front-end Web será desenvolvido em ReactJS com TypeScript.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 👨‍💻️ Tecnogias utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-### `yarn eject`
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Dependências
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - [Axios](https://github.com/axios/axios)
+  - :clock2: [Date FNS](https://date-fns.org/)
+  - :sparkles: [Polished](https://polished.js.org/)
+  - [React Day Picker](https://react-day-picker.js.org/)
+  - [React Icons](https://react-icons.github.io/react-icons/)
+  - [React Router DOM](https://github.com/ReactTraining/react-router#readme)
+  - [React Spring](https://www.react-spring.io/)
+  - :nail_care: [Styled Components](https://styled-components.com/)
+  - [UUIDv4](https://github.com/thenativeweb/uuidv4#readme)
+  - [Yup](https://github.com/jquense/yup)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Padronização de código
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  - [ESLint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
+  - :mouse: [Editor Config](https://editorconfig.org/)
 
-## Learn More
+### IDE
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  - [Visual Studio Code](https://code.visualstudio.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## 📦️ Como utilizar o projeto
+
+Para copiar o projeto, utilize os comandos:
+
+```bash
+  # Clonar o repositório
+  ❯ git clone https://github.com/hericke47/GoBarberWeb.git
+
+  # Entrar no diretório
+  ❯ cd gobarber-web
+```
+Para instalar as dependências e iniciar o projeto, você pode utilizar o Yarn ou NPM:
+
+**Utilizando yarn**
+
+```bash
+  # Instalar as dependências
+  ❯ yarn
+
+  # Iniciar o projeto
+  ❯ yarn dev:server
+```
+
+**Utilizando npm**
+
+*PS: Caso utilize o NPM, apaque o arquivo `yarn.lock` para ter todas as dependências instaladas da melhor forma.*
+
+```bash
+  # Instalar as dependências
+  ❯ npm install
+
+  # Iniciar o projeto
+  ❯ npm dev:server
+```
+
+---
+
+## 🤔️ Como contribuir
+
+1. Faça o `fork` deste repositório
+2. Crie uma branch com sua feature:
+   - `$ git checkout -b minha_feature`
+3. Confirme sua branch:
+   - `$ git commit -m "feature: Meu novo recurso"`
+4. Envie sua branch:
+   - `$ git push origin minha_feature`
+
+---
+
