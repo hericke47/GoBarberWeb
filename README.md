@@ -86,7 +86,7 @@ Para instalar as dependências e iniciar o projeto, você pode utilizar o Yarn o
   ❯ yarn
 
   # Iniciar o projeto
-  ❯ yarn dev:server
+  ❯ yarn start
 ```
 
 **Utilizando npm**
@@ -98,7 +98,7 @@ Para instalar as dependências e iniciar o projeto, você pode utilizar o Yarn o
   ❯ npm install
 
   # Iniciar o projeto
-  ❯ npm dev:server
+  ❯ npm start
 ```
 
 ---
