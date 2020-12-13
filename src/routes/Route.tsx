@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-  RouteProps as ReactDOMRouteProps,
   Route as ReactDOMRoute,
+  RouteProps as ReactDOMRouteProps,
   Redirect,
 } from 'react-router-dom';
 
@@ -23,14 +23,13 @@ const Route: React.FC<RouteProps> = ({
     <ReactDOMRoute
       {...rest}
       render={({ location }) => {
-        // verificar se a rota é privada e o usuario nao for autenticado mandar ele para rota de login e vice versa
         return isPrivate === !!user ? (
           <Component />
         ) : (
           <Redirect
             to={{
               pathname: isPrivate ? '/' : '/dashboard',
-              state: { from: location }, // não perder historico de rotas
+              state: { from: location },
             }}
           />
         );
